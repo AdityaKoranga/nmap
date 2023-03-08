@@ -2,6 +2,14 @@
 The Network Mapper, also known as “Nmap,” is a versatile, flexible, and famous tool used to manage and secure networks. It helps administrators to map their networks and security scans.
 
 ```bash
+nmap -sn 192.168.1.0/24
+```
+this will tell you all the devices that are connected to your network.
+> replace 192.168.1.0 with the IP address of your network
+![image](https://user-images.githubusercontent.com/95766110/223596537-6ad53e5e-5615-4e6a-be7d-b25c0639e565.png)
+
+
+```bash
 sudo nmap 192.168.1.1-255
 ```
 ![image](https://user-images.githubusercontent.com/95766110/222903976-ef2785fb-44d5-4fc6-8a10-13596f64064f.png)
